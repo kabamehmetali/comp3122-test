@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+ - "stable"
+deploy:
+provider: pages
+skip_cleanup: true
+<<<<<<< HEAD
+github_token: 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
+=======
+github_token: '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'
+>>>>>>> refs/remotes/origin/main
+local_dir: build
+on:
+branch: main
